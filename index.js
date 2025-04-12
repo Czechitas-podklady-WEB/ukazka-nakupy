@@ -53,6 +53,7 @@ addBtn.addEventListener('click', (e) => {
   const newItem = {
     name: nameInput.value,
     amount: amountInput.value,
+    bought: false,
   };
   list.push(newItem);
   renderList();
